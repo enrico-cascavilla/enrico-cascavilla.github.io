@@ -120,12 +120,12 @@ The evaluation has 2 steps. The first one comes from a standard random train/tes
 ### Pictures from the presentation
 
 <div class="gallery" data-columns="1">
-	<img src="/images/projects/ideology/matrix">
-	<img src="/images/projects/ideology/classification">
-	<img src="/images/projects/ideology/left">
-	<img src="/images/projects/ideology/prog">
-	<img src="/images/projects/ideology/moderate">
-	<img src="/images/projects/ideology/conservative">
-	<img src="/images/projects/ideology/right">
+	<img src="/images/projects/ideology/matrix.png">
+	<img src="/images/projects/ideology/classification.png">
+	<img src="/images/projects/ideology/left.png">
+	<img src="/images/projects/ideology/prog.png">
+	<img src="/images/projects/ideology/moderate.png">
+	<img src="/images/projects/ideology/conservative.png">
+	<img src="/images/projects/ideology/right.png">
 
 </div>
