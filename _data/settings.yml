@@ -59,6 +59,7 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/enrico-cascavilla/'
+  mymusic_url: 'https://www.enc-sound.net/'
 
 color_settings:
   background_color: '#ffffff'
@@ -68,7 +69,7 @@ color_settings:
   text_light_color: '#ABB7B7'
   accent_color: '#F2784B'
   border_color: '#dddddd'
-  overlay_background_color: '#F2784B'
+  overlay_background_color: '#F2784B' #colors of the square of the picture
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
