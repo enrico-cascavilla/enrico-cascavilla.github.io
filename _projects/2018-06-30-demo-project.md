@@ -98,7 +98,7 @@ NB: Many of the people from the lists are not in the Database. The names come fr
 
 - Author
 - Quote
-- Political Orientation | Target
+- Political Orientation / Target
 
 #### The Data | Train - Validation - Test
 
@@ -112,9 +112,9 @@ The evaluation has 2 steps. The first one comes from a standard random train/tes
 
 ## Summary and Conclusion
 
-- [Walkthrough the project](Walkthrough.ipynb)
-- [Future implementations and Conclusions](Conclusions.ipynb)
-- [Slide for the presentation](Presentation.pdf)
+- [Walkthrough the project](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Walkthrough.md)
+- [Future implementations and Conclusions](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Conclusions.md)
+- [Slide for the presentation](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Presentation.pdf)
 
 
 ### Image carousels
@@ -124,6 +124,12 @@ Here's another gallery with only one column, which creates a carousel slide-show
 A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+	<img src="/images/projects/ideology/matrix">
+	<img src="/images/projects/ideology/classification">
+	<img src="/images/projects/ideology/left">
+	<img src="/images/projects/ideology/prog">
+	<img src="/images/projects/ideology/moderate">
+	<img src="/images/projects/ideology/conservative">
+	<img src="/images/projects/ideology/right">
+
 </div>
