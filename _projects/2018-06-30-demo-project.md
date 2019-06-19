@@ -121,7 +121,7 @@ The evaluation has 2 steps. The first one comes from a standard random train/tes
 
 <div class="gallery" data-columns="1">
 	<img src="/images/projects/ideology/matrix.png" width="200" height="40">
-	<img src="/images/projects/ideology/classification.png">
+	<img src="/images/projects/ideology/classification.png" width="200" height="40">
 	<img src="/images/projects/ideology/left.png">
 	<img src="/images/projects/ideology/prog.png">
 	<img src="/images/projects/ideology/moderate.png">
