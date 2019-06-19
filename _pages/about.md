@@ -1,34 +1,34 @@
 ---
-title: About Duet
-subtitle: Duet is a beautiful Jekyll portfolio theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website.
-description: Duet is a beautiful Jekyll portfolio theme.
+title: About Me
+subtitle: I am a person who has always been drawn to creativity and rationality. Moving from an Italian ‘humanistic’ high school to a physics degree, then from a sound art career to a new Data Science challenge, I finally found a balance thanks to the immersive course at General Assembly.
+Maths gave me the curiosity to ask questions and the patience to answer them. Art gave me the capacity to change point of view and try different approaches to solve problems.
+During the General Assembly course, I studied all the main machine learning tools and techniques. I learned how to plan and deliver a project, to analyse and visualise data, and to create predictive models. Now I am ready to start my new career as a Junior Data Scientist. This is an exciting starting point, for my career but also for my personal development. I am looking forward to apply these new skills in my new role and in my spare time.
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
 ![](/images/demo/demo-landscape.jpg)
 
-## Features
+## Skills
 
-We've packed Duet full of powerful features to help showcase your work:
+# Data Science
 
-* Beautiful, minimal design
-* Two-column masonry grid layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+* Data Wrangling: Pandas, NumPy, SciPy, Beautiful Soup, SQL
+* Processing: Scikit-learn, Statsmodels
+* Natural Language Processing: NLTK, Gensim, Spacy, Vader
+* Visualisation: Matplotlib, Seaborn, Plotly, Tableau
+* Version Control: GitHub, Git
 
-## Get Duet
+## Others
 
-Duet is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $29.
+* Music Production, Sound Design and Composer: Logic Pro, Ableton, Adobe Audition, Piano, Clarinet
+* OS: Mac, Windows, Linux
+* Chess and Tennis table amateur
+* Storyteller and story listener
+
+
+## Interests
+
+* Contemporary sound artists, like Nils Frahm or Robert Henke, play a big role in my life, Barbican is my favourite venue to see them. But more than anything else, I am very passionate about stories of any kind and any form.
+
 
 <a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
