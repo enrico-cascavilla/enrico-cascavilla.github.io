@@ -1,6 +1,6 @@
 ---
 title: Contact
-subtitle: Let's keep in touch
+subtitle: Send me a text or an email [ enricocascavilla@gmail.com ]
 description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
