@@ -3,7 +3,7 @@ title: 'Ideology Detection'
 subtitle: 'Data Science Capstone Project for General Assembly'
 date: 2018-06-30 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: 'geography-of-political-ideology.png'
+featured_image: '/images/projects/ideology/geography-of-political-ideology.png'
 ---
 
 ![](/images/projects/ideology/Ideology.jpg)
