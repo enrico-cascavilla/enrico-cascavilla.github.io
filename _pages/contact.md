@@ -1,7 +1,7 @@
 ---
 title: Contact
-subtitle: Let's stay keep in touch
-description: 
+subtitle: Let's keep in touch
+description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
