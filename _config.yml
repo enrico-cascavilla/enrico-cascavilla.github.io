@@ -3,7 +3,7 @@ site: Duet Jekyll Theme
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:Enrico Cascavilla
   posts:
     output: true
     permalink: /blog/:slug
