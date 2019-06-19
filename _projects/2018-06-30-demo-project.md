@@ -117,11 +117,7 @@ The evaluation has 2 steps. The first one comes from a standard random train/tes
 - [Slide for the presentation](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Presentation.pdf)
 
 
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
+### Pictures from the presentation
 
 <div class="gallery" data-columns="1">
 	<img src="/images/projects/ideology/matrix">
