@@ -31,6 +31,3 @@ During the General Assembly course, I studied all the main machine learning tool
 #### Interests
 
 * Contemporary sound artists, like Nils Frahm or Robert Henke, play a big role in my life, Barbican is my favourite venue to see them. But more than anything else, I am very passionate about stories of any kind and any form.
-
-
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
