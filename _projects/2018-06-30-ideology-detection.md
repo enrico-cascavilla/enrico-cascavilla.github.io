@@ -37,7 +37,7 @@ According to Wikipedia, we have almost 20 different [macro-ideology](https://en.
 The Left-Right spectrum on the x-axis, and the Freedom-Authority on the y-axis. For this project we choose to identify only the Left-Right (x-axis). So the bias of every person will be projected on the x-axis, in only 1-D.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/projects/ideology/geography-of-political-ideology.png">
+	<img src="/images/projects/ideology/geography-of-political-ideology.png" >
 	<img src="/images/projects/ideology/left_right.png">
 </div>
 
