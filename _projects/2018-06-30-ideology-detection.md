@@ -8,8 +8,6 @@ featured_image: '/images/projects/ideology/geography-of-political-ideology.png'
 
 ![](/images/projects/ideology/Ideology.jpg)
 
-# Ideology detection
-
 ## Abstract
 
 
