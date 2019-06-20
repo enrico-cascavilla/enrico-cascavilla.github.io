@@ -69,9 +69,9 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7' #*
-  accent_color: '#F2784B'
+  accent_color: '#d30c52'
   border_color: '#dddddd'
-  overlay_background_color: '#ABB7B7' #colors of the square of the picture
+  overlay_background_color: '#38e2e2' #colors of the square of the picture
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
