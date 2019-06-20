@@ -36,7 +36,7 @@ The Left-Right spectrum on the x-axis, and the Freedom-Authority on the y-axis. 
 
 <div style="height:750px; width:700px;" class="gallery" data-columns="1">
 	<p style="text-align:center;"><img alt="ideology/geography-of-political-ideology.png" style="max-height:80%; max-width:80%;"  src="/images/projects/ideology/geography-of-political-ideology.png">
-	<p style="text-align:center;"><img alt="left_right.png" style="max-height:100%; max-width:80%;" src="/images/projects/ideology/left_right.png">
+	<img alt="left_right.png" style="max-height:100%; max-width:80%;" src="/images/projects/ideology/left_right.png">
 </div>
 
 
