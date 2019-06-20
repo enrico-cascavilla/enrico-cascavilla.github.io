@@ -34,8 +34,8 @@ Recently everyone saw what probably will be the future of political campaign wit
 According to Wikipedia, we have almost 20 different [macro-ideology](https://en.wikipedia.org/wiki/List_of_political_ideologies). The most common way to visualise the political spectrum is a 2-D dimension graph.
 The Left-Right spectrum on the x-axis, and the Freedom-Authority on the y-axis. For this project we choose to identify only the Left-Right (x-axis). So the bias of every person will be projected on the x-axis, in only 1-D.
 
-<div style="height:750px; width:700px;" class="gallery" data-columns="1">
-	<p style="text-align:center;"><img alt="ideology/geography-of-political-ideology.png" style="max-height:80%; max-width:80%;"  src="/images/projects/ideology/geography-of-political-ideology.png">
+<div style="text-align:center; height:750px; width:700px;" class="gallery" data-columns="1">
+	<img alt="ideology/geography-of-political-ideology.png" style="max-height:80%; max-width:80%;"  src="/images/projects/ideology/geography-of-political-ideology.png">
 	<img alt="left_right.png" style="max-height:100%; max-width:80%;" src="/images/projects/ideology/left_right.png">
 </div>
 
