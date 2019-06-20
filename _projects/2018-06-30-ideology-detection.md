@@ -44,9 +44,9 @@ img{
     object-fit: contain;
 }
 
-<div class="gallery" data-columns="1">
-	<img src="/images/projects/ideology/geography-of-political-ideology.png">
-	<img src="/images/projects/ideology/left_right.png">
+<div style="height:750px; width:700px;" class="gallery" data-columns="1">
+	<img alt="ideology/geography-of-political-ideology.png" style="max-height:100%; max-width:100%;"  src="/images/projects/ideology/geography-of-political-ideology.png">
+	<img alt="left_right.png" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/left_right.png">
 </div>
 
 
