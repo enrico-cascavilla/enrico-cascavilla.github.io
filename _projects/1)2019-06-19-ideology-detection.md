@@ -170,10 +170,11 @@ As of last things, I tried Sentiment Analysis and Word2Vec. Sentiment Analysis w
 - Locate the Database in the space and in time: Use English was important to collect more data but to improve, create a model for each country (space) and for each topic could bring a massive evolution in the project. Exactly we should locate the database in a shorter period of time.
 - Create a specific metric evaluation that could be compatible with this ordinal classification problem. Bespoke confusion matrix and classification report.
 
-## Code and Presentation slide
-###### Entire Code on jupyter notebook
+## Code | csv | pdf
+###### Entire Code on jupyter notebook and links
 
 - [Ideology detection code](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Ideology.ipynb)
 
-###### pdf slides
-- [Slide for the presentation](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Presentation.pdf)
+- [The entire Database in csv](https://raw.githubusercontent.com/enrico-cascavilla/Ideology-detection/master/database.csv)
+
+- [Presentation in pdf](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Presentation.pdf)
