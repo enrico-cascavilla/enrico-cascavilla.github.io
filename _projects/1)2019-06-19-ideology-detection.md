@@ -171,10 +171,6 @@ As of last things, I tried Sentiment Analysis and Word2Vec. Sentiment Analysis w
 - Create a specific metric evaluation that could be compatible with this ordinal classification problem. Bespoke confusion matrix and classification report.
 
 ## Code | csv | pdf
-###### Entire Code on jupyter notebook and links
-
-- [Ideology detection code](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Ideology.ipynb)
-
-- [The entire Database in csv](https://raw.githubusercontent.com/enrico-cascavilla/Ideology-detection/master/database.csv)
-
+- [Code in jupyter notebook](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Ideology.ipynb)
+- [Entire Database in csv](https://raw.githubusercontent.com/enrico-cascavilla/Ideology-detection/master/database.csv)
 - [Presentation in pdf](https://github.com/enrico-cascavilla/Ideology-detection/blob/master/Presentation.pdf)
