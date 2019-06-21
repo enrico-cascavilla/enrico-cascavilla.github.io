@@ -33,30 +33,20 @@ Recently everyone saw what probably will be the future of political campaign wit
 
 According to Wikipedia, we have almost 20 different [macro-ideology](https://en.wikipedia.org/wiki/List_of_political_ideologies). The most common way to visualise the political spectrum is a 2-D dimension graph.
 The Left-Right spectrum on the x-axis, and the Freedom-Authority on the y-axis. For this project we choose to identify only the Left-Right (x-axis). So the bias of every person will be projected on the x-axis, in only 1-D.
-
 <div style="height:750px; width:750px;" class="gallery" data-columns="1">
 	<img alt="ideology/geography-of-political-ideology.png" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/geography-of-political-ideology.png">
 	<img alt="left_right.png" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/left_right.png">
 </div>
-
-
-
 #### The Data | Biased People and Criteria
 
 Since there is no such Database, I created my own one. The main problem to create a Database with quotes and ideology is my personal Bias. So I chose some **Criteria** to keep the objectivity:
 
 - Not politician, or not mainly a politician: Since our project is to detect an ideology, politician sometimes diverts from ideology. Popular consent, specific topic and a particular moment of the political scene could push the politician to take different positions.
-
 - English language native, or english main language spoken.
-
 - Personal selection: The first selection comes from my research.
-
 - Objective confirmation - Wikipedia: Every name found in my research has been confirmed by Wikipedia. Wikipedia labeled the political Bias of many public figures. Most of the time it is possible to find it in the "summary-introduction", sometimes in the paragraph "Political views".
-
 - Objective confirmation - [allsides.com](https://www.allsides.com/): An alternative way to labeled people is the website allsides.com. This website labeled the political bias of American media and journalist.
-
 - Rejection without confirmation: Without the objective confirmation from one of those websites, the person is rejected and he will not be part of the database.
-
 - The quotes are from 1960 - present.
 
 #### The Data | Source
@@ -124,12 +114,10 @@ To create balanced classes I took the same number of random data for each class,
 Investigating the vocabulary for each class we realized immediately that the goal will be very hard as most of the frequent words are the same, in each category. The first most used word by category is the same for each class: "people" for the quote, the second is "world" in three categories and in the top 5 in the left two. We can see that the two extreme categories have more unique words and concepts, and we notice also that many categories contain words opposite to their ideology. This happens because they talk about other categories.
 
 The extreme ideologies have more words, and median and mean of length of quotes bigger. Moderate take the last position in all these ranking.
-
 <div style="height:750px; width:750px;" class="gallery" data-columns="1">
 	<img alt="Ideology_words" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/Ideology_words.png">
 	<img alt="Top_10_words" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/Top_10_words.png">
 </div>
-
 ## Modelling
 
 I started creating a pipeline using CountVectorizer. After inspecting the vocabulary, I increased the stopwords with other few not very useful words that came out in the top 30 (auxiliary verbs especially). Logistic Regression is the first model to try in the pipeline: A score around45%-46% on the test set show us that a pattern could be found in the words. From the confusion matrix, we can clearly see the diagonal of the true value, and often the neighbor category has the highest values in the false negative. Since the final dataset is created random, I chose to not save it and run a different dataset every time. After several observations, I can say that the difference is very little every time. Conservative is the class with the lowest value of precision and recall. In some particular situation of the random dataset, the left became the first false negative for the conservative. From the most important coefficient, we notice that in the left we have few words that describe the conservative (capital and neoliberal) and conservative have communist. At the same time, there is some similarity in the negative coefficients. Overall the coefficients start to track a line and give us some boundaries for the categories.
@@ -140,7 +128,7 @@ The result of the little external dataset is lower. This show that our model ove
 
 We can explain this behavior also from real life. The extreme is the categories that want to change the status quo, while the categories in the middle, in different ways, want to keep it. And we could notice this almost from the beginning and the most frequent words.
 
-Using the TfiVectorizer we see a little improvement in the score, both with Logistic Regression and MultinomialNB. The coefficients also didn't change that much. Overall the behavior of the machine is very similar. On the test set, we have a good improvement to identify the class moderate and still decent on the extreme. Looking again at the coefficients we can notice that Progressive are different from the left for beacue are more related to goverative and economic words. The worst category to identify is the again the conservative which finish in the right (an error that can be acceptable in same cases) and left. most likely for the same reason we met with the Countvectorizer. We also notice that some "family" related words appear in the right side of the spectrum. So every quote that contain the words child, father, are probaly categorized as conservative or right. The right keeps words typical of nationalism and of the far right : muslim, islamic, israel, jews. Exactly like the machine didn't change much in the big dataset, also in the external dataset almost everything we notice in the previous analysis is confirmed.
+Using the TfiVectorizer we see a little improvement in the score, both with Logistic Regression and MultinomialNB. The coefficients also didn't change that much. Overall the behavior of the machine is very similar. On the test set, we have a good improvement to identify the class moderate and still decent on the extreme. Looking again at the coefficients we can notice that Progressive are different from the Left because are more related to government and economic words. The worst category to identify is the again the conservative which finish in the right (an error that can be acceptable in same cases) and left. most likely for the same reason we met with the Countvectorizer. We also notice that some "family" related words appear in the right side of the spectrum. So every quote that contain the words child, father, are probably categorised as conservative or right. The right keeps words typical of nationalism and of the far right : muslim, islamic, Israel, jews. Exactly like the machine didn't change much in the big dataset, also in the external dataset almost everything we notice in the previous analysis is confirmed.
 
 Using a threshold confusion matrix I built we confirm even more that the strongest probability are in the extreme categories. The reason is again in the different words used from these categories. This shows also, that the confusion that the machine has for the 3 categories in the centre, comes from low probabilities.
 
