@@ -6,7 +6,7 @@ description:
 featured_image: '/images/projects/house/houses.jpg'
 ---
 
-<img src="/images/demo/demo-portrait.jpg">
+<img src="/images/projects/house/houses.jpg" width="200" height="200">
 
 ### Business Case
 You work for a real estate company interested in using data science to determine the best properties to buy and re-sell. Specifically, your company would like to identify the characteristics of residential houses that estimate the sale price and the cost-effectiveness of doing renovations.
