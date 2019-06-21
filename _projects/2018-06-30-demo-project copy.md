@@ -1,12 +1,12 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
+title: 'Regression and Classification with housing data'
+subtitle: 'Project 3 for Data Science Immersive course at General Assembly '
 date: 2018-06-30 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
+description:
+featured_image: '/images/projects/house/houses.jpg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/projects/house/houses.jpg)
 
 ## Demo content
 
