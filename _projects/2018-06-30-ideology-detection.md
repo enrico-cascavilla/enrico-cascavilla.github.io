@@ -1,6 +1,7 @@
 ---
 title: 'Ideology Detection'
-subtitle: 'Data Science Capstone Project for General Assembly'
+subtitle: 'Data Science Capstone Project for General Assembly
+[Complete jupyter notebook at the end of the page]'
 date: 2018-06-30 00:00:00
 description: #This page is a demo that shows everything you can do inside portfolio and blog posts.
 featured_image: '/images/projects/ideology/geography-of-political-ideology.png'
@@ -36,7 +37,7 @@ The Left-Right spectrum on the x-axis, and the Freedom-Authority on the y-axis. 
 
 <div style="height:750px; width:750px;" class="gallery" data-columns="1">
 	<img alt="ideology/geography-of-political-ideology.png" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/geography-of-political-ideology.png">
-	<img alt="left_right.png" style="max-height:1000%; max-width:1000%;" src="/images/projects/ideology/left_right.png">
+	<img alt="left_right.png" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/left_right.png">
 </div>
 
 
