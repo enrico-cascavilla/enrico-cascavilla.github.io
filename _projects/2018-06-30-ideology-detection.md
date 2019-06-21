@@ -40,7 +40,6 @@ The Left-Right spectrum on the x-axis, and the Freedom-Authority on the y-axis. 
 #### The Data | Biased People and Criteria
 
 Since there is no such Database, I created my own one. The main problem to create a Database with quotes and ideology is my personal Bias. So I chose some **Criteria** to keep the objectivity:
-
 - Not politician, or not mainly a politician: Since our project is to detect an ideology, politician sometimes diverts from ideology. Popular consent, specific topic and a particular moment of the political scene could push the politician to take different positions.
 - English language native, or english main language spoken.
 - Personal selection: The first selection comes from my research.
@@ -115,7 +114,7 @@ Investigating the vocabulary for each class we realized immediately that the goa
 
 The extreme ideologies have more words, and median and mean of length of quotes bigger. Moderate take the last position in all these ranking.
 <div style="height:750px; width:750px;" class="gallery" data-columns="1">
-	<img alt="Ideology_words" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/Ideology_words.png">
+	<img alt="Ideology_words" style="max-height:100%; max-width:100%;"  src="/images/projects/ideology/Ideology_words.png">
 	<img alt="Top_10_words" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/Top_10_words.png">
 </div>
 ## Modelling
@@ -135,13 +134,13 @@ Using a threshold confusion matrix I built we confirm even more that the stronge
 The Precision Recall Curve and the ROC, shows Left and Right above any other, and centre in middle. Not great for Progressive and Conservative. These last two categories are sometimes even lower than the baseline in the external dataset, probably due to the overfitting of the authors.
 
 <div style="height:750px; width:750px;" class="gallery" data-columns="1">
-	<img alt="matrix" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/matrix.png">
+	<img alt="matrix" style="max-height:100%; max-width:100%;"  src="/images/projects/ideology/matrix.png">
 	<img alt="classification" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/classification.png">
-	<img alt="left" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/left.png">
+	<img alt="left" style="max-height:100%; max-width:100%;"  src="/images/projects/ideology/left.png">
 	<img alt="prog" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/prog.png">
-	<img alt="moderate" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/moderate.png">
+	<img alt="moderate" style="max-height:100%; max-width:100%;"  src="/images/projects/ideology/moderate.png">
 	<img alt="conservative" style="max-height:100%; max-width:100%;" src="/images/projects/ideology/conservative.png">
-	<img alt="right" style="max-height:50%; max-width:100%;"  src="/images/projects/ideology/right.png">
+	<img alt="right" style="max-height:100%; max-width:100%;"  src="/images/projects/ideology/right.png">
 </div>
 
 ### Voting
